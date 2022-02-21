@@ -1,0 +1,25 @@
+#sidebar{
+    border: 1px solid grey;
+    width: 16%;
+    flex: 2;
+    font-weight: bolder;
+    margin-top: 5px;
+    background-color: cornflowerblue;
+}
+#container{
+    display: flex;
+    height: 100%;
+    background-color: lemonchiffon;
+    
+}
+#main{
+    flex: 6;
+    height: 100%;
+    border: 1 px solid grey;
+    display: grid;
+    grid-template-columns: repeat(1,70%);
+    margin-left: 30px;
+}
+#main>img{
+    height: 200px;
+}
